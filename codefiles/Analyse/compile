@@ -1,0 +1,2 @@
+g++ make_density.cpp 
+g++ make_density.cpp -o trj

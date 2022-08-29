@@ -1,0 +1,12 @@
+make_density.cpp is a program that averages profiles of 0/1s or 0/2s and produces a density profile that can be plotted.
+Parameters are the system size and which number should be taken the average of. Make sure you read the code before you use it.
+
+In the code collection it is either used as ./trj or ./a.out
+
+Examples:
+1) produces a motor density
+./trj 3p0/trjLK_den0.024390.dat 1000 2 > trjLK_3p0.den
+
+2) produces a cargo density
+./trj 3p0/trjTIP_den0.024390.dat 1000 1 > trjTIP_3p0.den
+

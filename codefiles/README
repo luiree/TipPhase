@@ -1,0 +1,17 @@
+The synthax for running a simulation looks for example like this:
+
+./tt7_CAR0-OLI0-CAP0-CLUS0-DET0.out 20 67
+
+The executable carries the name of the model that is being ran.
+The first parameter is concentration in nM of motors and the second parameter is a seed for the random number generator (useful when you want to produce in parallel).
+
+The models are characterised by keywords in the executable and directories, and as 0/1 for the filenames.
+
+CAR - indicates if there is cargo or not (0/1)
+OLI - indicates of there is oligomerization (0/1)
+CAP - indicates if there is a GTP cap and its hydrolysis (0/1)
+CLUS - indicates if there is clustering (0/1)
+DET - indicates if there is detachment from clusters (0/1)
+
+if applicable:
+off? indicates an additional detachment rate

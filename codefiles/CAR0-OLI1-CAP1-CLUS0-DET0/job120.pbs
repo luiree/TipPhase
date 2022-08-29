@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+#PBS -N echo_9
+#PBS -l nodes=1,walltime=48:00:00
+#PBS -q q1
+#PBS -M L.Reese@tudelft.nl
+#PBS -o out.$PBS_JOBID
+#PBS -e err.$PBS_JOBID
+# Start echo_test example job
+cd $PBS_O_WORKDIR
+./tt7_CAR0-OLI1-CAP1-CLUS0-DET0.out 120 67

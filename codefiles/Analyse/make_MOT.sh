@@ -1,0 +1,9 @@
+./trj 1p0/trjLK_den0.024390.dat 1000 2 > trjLK_1p0.den
+./trj 1p5/trjLK_den0.024390.dat 1000 2 > trjLK_1p5.den
+./trj 2p0/trjLK_den0.024390.dat 1000 2 > trjLK_2p0.den
+./trj 2p5/trjLK_den0.024390.dat 1000 2 > trjLK_2p5.den
+./trj 3p0/trjLK_den0.024390.dat 1000 2 > trjLK_3p0.den
+./trj 3p5/trjLK_den0.024390.dat 1000 2 > trjLK_3p5.den
+./trj 4p0/trjLK_den0.024390.dat 1000 2 > trjLK_4p0.den
+./trj 4p5/trjLK_den0.024390.dat 1000 2 > trjLK_4p5.den
+./trj 5p0/trjLK_den0.024390.dat 1000 2 > trjLK_5p0.den
